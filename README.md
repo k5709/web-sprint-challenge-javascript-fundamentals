@@ -25,15 +25,31 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-    |the .map method create a copy of an object into a new array.
+
+    -|The .map method create a copy of an object into a new array.
+    -|The .reduce() method executes a callback function on each element of an array, in order passsing in the return calue from the calculation on the preceding element.
+    -|The .filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the the test implemented by the provided function.
+
 2. Explain the difference between a callback and a higher order function.
-    |A call back function is what is passed into a higher order function. 
+
+    -|A call back function is what is passed into a higher order function. 
+
 3. Explain what a closure is.
-    |function that references variables in the outer scope from it's inner scope.
+
+    -|function that references variables in the outer scope from it's inner scope.
+
 4. Describe the four principles of the 'this' keyword.
-    |
+
+    -|Explicit binding: Objects that are passed as first parameters => .call(), .apply(), .bind().
+    -|Implicit binding: using dot notation to call a function 
+    -|Window binding: Creates a new function that, when called has it's 'this' keyword set to the provided value.
+    -|New binding: While working with constructors, 'new' is refering to the created object and returned by the constructor function.
+
+
 5. Why do we need super() in an extended class?
-    |Because that is the keyword that we use to call the constructor of it's parent class to access the parent's properties and methods.
+
+    -|Because that is the keyword that we use to call the constructor of it's parent class to access the parent's properties and methods.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
